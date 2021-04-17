@@ -25,7 +25,7 @@ width: 30%;
 <div class="header">
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-<a href="amp.html">link</a>
+<a href="**/amp.html">link</a>
 </div>
 <div class="container">
 <div class="left-side"> left-side</div>
