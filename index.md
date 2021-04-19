@@ -19,7 +19,7 @@
 
 
 <hr/>
-<div style="background-color:#a1a1a1;padding:10px;">
+<div style="background-color:#a1a1a1;padding:10px;margin:10px;">
 <h3><a href="https://rakshak.tech/amp/amp.html" style="color:coral;text-decoration:none;">Post tamplate sample</a></h3>
 <p>In Android app use the following URL Adobe the Adobe flash player is required for video playback is unavailable right now because this video is not a href enter the correct information if you have any questions or delete it from your NVR name ims to complete online KYC of EPFO</p>
 </div>
