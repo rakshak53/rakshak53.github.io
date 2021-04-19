@@ -44,5 +44,3 @@
 <hr style="margin:0px 50px 0px 50px;border-top:coral;"/>
 <div style="color:white;">2021 | Design by <a href="#" style="text-decoration:none;color:white; font-weight:bold;">@Rakshak</a>
 </div>
-  </body>
-</html>
