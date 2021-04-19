@@ -19,6 +19,11 @@
 
 
 <hr/>
+<div style="background-color:#e3e3e3;padding:10px;">
+<h3>post template sample</h3>
+<p>In Android app use the following URL Adobe the Adobe flash player is required for video playback is unavailable right now because this video is not a href enter the correct information if you have any questions or delete it from your NVR name ims to complete online KYC of EPFO</p>
+</div>
+
 <body style="padding:0;margin:0;">
 <div style="background-color:#fff;padding:10px;">
 <h2 style="color:chocolate;">Post Name Here</h2>
