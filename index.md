@@ -8,14 +8,11 @@
     <meta name="viewport" content="width=device-width">
     <meta name="theme-color" content="coral">
   </head>
-  
-<header>
-<div class="header" style="padding:0px;text-align:center;">
+ 
+<div style="padding:0px;text-align:center;">
 
     <h1><a href="https://rakshak.tech" style="color:coral;text-decoration:none;">rakshak</a></h1>
 </div>
-
-</header>
 
 
 <hr/>
