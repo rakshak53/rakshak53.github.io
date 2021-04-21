@@ -54,7 +54,7 @@
 <p>In Android app use the following URL Adobe the Adobe flash player is required for video playback is unavailable right now because this video is not a href enter the correct information if you have any questions or delete it from your NVR name ims to complete online KYC of EPFO</p>
 </div>
 
-
+<br/>
 <div style="background-color:#fff;padding:10px;">
 <h2 style="color:chocolate;">Post Name Here</h2>
 <h5>Date : 17/04/2021 <br/> Posted by : <a href="#" style="color:coral;text-decoration:none;">Admin</a></h5>
