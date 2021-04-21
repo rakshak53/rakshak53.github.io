@@ -73,7 +73,6 @@
 </div>
 <br/>
 <div class="footer" style="background-color:coral;padding:0px;text-align:center;">
-<div>
 <a href="#" style="text-decoration:none;color:maroon;margin-left:10px;">Home</a>
 <a href="#" style="text-decoration:none;color:maroon;margin-left:10px;">About</a>
 <a href="#" style="text-decoration:none;color:maroon;margin-left:10px;">Contact Us</a>
