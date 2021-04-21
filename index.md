@@ -72,7 +72,7 @@
 <p>I am going to sleep now baby I love you baby girl in the world is not a big deal for the same thing happened </p>
 </div>
 <br/>
-<div class="footer" style="background-color:coral;padding:15px;text-align:center;">
+<div class="footer" style="background-color:coral;padding:0px;text-align:center;">
 <div>
 <a href="#" style="text-decoration:none;color:maroon;margin-left:10px;">Home</a>
 <a href="#" style="text-decoration:none;color:maroon;margin-left:10px;">About</a>
