@@ -305,24 +305,21 @@ margin:3px;
 
 
 <div>
-
 <amp-list width="auto" height="auto" layout="responsive" src="https://marathibana.online/amp-list-urls.json" binding="no">
 
+<template type="amp-mustache">
 
-
-
-  <template type="amp-mustache" class"related1">
-   <div> <a class="related" href="{{url}}"><amp-img width="101" height="75" src="{{thumbnail}}"></amp-img></a></div>
-
-<div> <a class="related" href="{{url}}"><span>{{title}}</span></a></div>
+    <div class="image-entry">
+      <a class="related" href="{{url}}"><amp-img src="{{thumbnail}}" width="100" height="75"></amp-img></a>
+      <a class="related" href="{{url}}"><span class="image-title">{{title}}</span></a>
+    </div>
   </template>
 
 
 
 
-
-
 </amp-list>
+
 
 </div>
 
