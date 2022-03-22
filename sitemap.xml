@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://bolmarathi.online/aa-post-template.html</loc>
+    <loc>https://marathibana.online/aa-post-template.html</loc>
     <lastmod>2022-03-03</lastmod>
     <image:image>
       <image:title>Test image</image:title>
-      <image:loc>https://bolmarathi.online/demo.png</image:loc>
-      <image:caption>bolmarathi.online</image:caption>
+      <image:loc>https://marathibana.online/demo.png</image:loc>
+      <image:caption>marathibana.online</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://bolmarathi.online/sesame-chutney-recipe-in-marathi.html</loc>
+    <loc>https://marathibana.online/sesame-chutney-recipe-in-marathi.html</loc>
     <lastmod>2022-03-22</lastmod>
     <image:image>
       <image:title>sesame chutney recipe in marathi</image:title>
-      <image:loc>https://bolmarathi.online/img/marathibana-recipe.png</image:loc>
-      <image:caption>bolmarathi.online</image:caption>
+      <image:loc>https://marathibana.online/img/marathibana-recipe.png</image:loc>
+      <image:caption>marathibana.online</image:caption>
     </image:image>
   </url>
 
