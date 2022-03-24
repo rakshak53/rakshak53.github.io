@@ -25,15 +25,4 @@
     </news:news>
   </url>
 
-  <url>
-   <loc>http://www.example.org/business/article55.html</loc>
-   <news:news>
-   <news:publication>
-     <news:name>MarathiBana</news:name>
-     <news:language>mr</news:language>
-   </news:publication>
-   <news:publication_date>2022-03-22</news:publication_date>
-     <news:title>Companies A, B in Merger Talks</news:title>
-    </news:news>
-  </url>
 </urlset>
