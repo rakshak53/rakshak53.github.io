@@ -1,33 +1,39 @@
 <!doctype html>
-<html ⚡ lang="en-us" prefix="og: https://ogp.me/ns#">
+<html ⚡ lang="en-us">
   <head>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Marathi WebSite">
-    <meta name="theme-color" content="#3639e3">
-    <link rel="canonical" href="https://marathitrends.in">
-    <title>मराठी ट्रेंड्स.इन</title>
-    <link rel="manifest" href="https://marathitrends.in/manifest.json">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://marathitrends.in/logo/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://marathitrends.in/logo/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://marathitrends.in/logo/apple-touch-icon.png">
-    <link rel="icon" sizes="192x192" href="https://marathitrends.in/logo/android-chrome-192x192.png">
-    <link rel="icon" sizes="512x512" href="https://marathitrends.in/logo/android-chrome-512x512.png">
-    <meta property="og:url" content="https://marathitrends.in" />
-    <meta property="og:image" content="https://marathitrends.in/MARATHITRENDS.jpg" />
-    <meta property="og:description" 
-  content="Home Page" />
-    <meta property="og:site_name" content="मराठी ट्रेंड्स.इन" />
+    <meta name="description" content="marathi content website">
+    <meta name="theme-color" content="#00508a">
+    <title>मराठीबाणा.ऑनलाईन</title>
+    <link rel="canonical" href="https://marathibana.online">
+    <link rel="manifest" href="https://marathibana.online/manifest.json">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://marathibana.online/logo/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://marathibana.online/logo/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://marathibana.online/logo/apple-touch-icon.png">
+    <link rel="icon" sizes="180x180" href="https://marathibana.online/logo/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="https://marathibana.online/logo/android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="https://marathibana.online/logo/android-chrome-512x512.png">
+
+
+    <meta property="og:image" content="https://marathibana.online/logo/android-chrome-512x512.png" />
+    <meta property="og:site_name" content="मराठीबाणा.ऑनलाईन" />
 
 <!--  og meta tags -->
+
+
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <!-- Import other AMP Extensions here -->
 
 
-   <!-- amp ads 
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>  -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+
+   <!-- amp ads -->
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -36,20 +42,25 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <style amp-custom>
     /* Add your styles here */
-body{
-margin:0px;
-padding:0px;
+*{margin:0;
+padding:0;
+}
+
+body{margin:0;
+padding:0;
 background-color:#f2f2f2;
 }
 
 a:hover{
-color:#ab2020;
+color:#046bb5;
 }
 
 .headerbar{
-background-color:#3639e3;
-background-color:#3367D6;
+background-color:#046bb5;
 color:white;
+}
+.headerbar a:hover{
+color:#0f6639;
 }
 
 .home-button {
@@ -82,7 +93,7 @@ font-size:25px;
 #sidebar1{
   align-items: center;
 backgroundd: linear-gradient(to bottom, #662d91 0%, #fa6732 100%);
-background: linear-gradient(to bottom, #3639e3 0%, #3367D6 100%);
+background: linear-gradient(to bottom, #046bb5 0%, #00508a 100%);
 background-colorr:#3639e3;
 }
 
@@ -90,7 +101,6 @@ background-colorr:#3639e3;
   padding: 20px;
   margin: 0;
   width:auto;
-
   font-weight:600;
   margin:10px;
   border:1px solid #fff;
@@ -114,27 +124,8 @@ color:#fff;
   font-weight:bold;
 }
 
-.sidebar2 {
-  padding: 20px;
-  width:auto;
-  font-weight:600;
-  margin:10px;
-  border:1px solid #fff;
-  border-radius:15px;
-  }
-.sidebar2 > li {
-  list-style: none;
-  margin-bottom:10px;
-}
-.sidebar2 a {
-  text-decoration: none;
-  color:#fff;
-}
 .sidebar a:hover{
-color:#ab2020;
-}
-.sidebar2 a:hover{
-color:#ab2020;
+color:#0f6639;
 }
 
 .footer1{
@@ -160,13 +151,38 @@ font-weight:bold;
 background-color:#fff;
 margin:10px;
 padding:10px;
-border-radius:0px;
+border-radius:15px;
 height:auto;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.post-thumbnail a:hover{
-color:#3367D6;
+.post-thumbnail h2{
+margin-bottom:10px;
 }
+
+.date{
+font-size:12px;
+font-weight:500;
+}
+
+.post-thumbnail a, p{
+text-decoration:none;
+color:#3d3d3d;
+}
+.post-thumbnail p{
+margin-top:10px;
+margin-bottom:10px;
+}
+.post-thumbnail p:last-child{
+margin-top:10px;
+}
+.read-button{
+padding:5px 10px 5px 10px;
+background-color:#046bb5;
+color:#fff;
+border-radius:15px;
+floatt:left;
+}
+
 
 .post-thumbnail-title{
 text-decoration:none;
@@ -177,6 +193,46 @@ width:100%;
 border-radius:0px 0px 15px 15px;
 height:auto;
 }
+
+
+
+.right-side-container{
+background-color:#046bb5;
+color:#fff;
+margin:10px;
+padding:10px;
+border-radius:15px;
+height:auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-side-container li{
+font-size:20px;
+font-weight:500;
+font-color:#fff;
+list-style: none;
+margin-top:20px;
+}
+
+.right-side-container a{
+font-size:20px;
+font-weight:500;
+color:#fff;
+}
+.right-side-container a:hover{
+color:maroon;
+}
+.right-side-container-title{
+font-size: 30px;
+text-decoration:none;
+color:#fff;
+}
+.right-side-container-img{
+width:100%;
+border-radius:0px 0px 15px 15px;
+height:auto;
+}
+
 .ads1{
 backgroundddd-color:#fff;
 width:340px;
@@ -184,153 +240,230 @@ height:340px;
 margin:10px;
 border-radiusssss:15px;
 }
+
+@media only screen and (min-width: 600px) {
+  .container{
+    display: flex;
+  }
+  .left-side{
+   width:70%;
+}
+  .right-side{
+   width:30%;
+}
+
+}
+
+
+
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-   
   </head>
 
   <body>
 
+<!-- auto ads rakshak -->
 
 <header class="headerbar">
   <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">☰</div>
-  <div class="site-name"><a class="site-name-link" href="https://marathitrends.in">marathitrends.in</a></div>
+  <div class="site-name"><a class="site-name-link" href="https://marathibana.online">marathibana.online</a></div>
 </header>
 
 <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div> <ul class="sidebar">
+<h3>About</h3>
+<hr/>
+ <li><a href="https://marathibana.online/post/p/contact.html">Contact me</a></li> <li><a href="https://marathibana.online/post/p/disclaimer.html">Disclaimer</a></li> <li><a href="https://marathibana.online/post/p/privacy.html">Privacy Policy</a></li> <li><a href="https://marathibana.online/stories/web-stories-list.html">Web Stories</a></li> </ul>
+
+<ul class=sidebar>
 <h3>Category</h3>
 <hr/>
- <li><a href="https://marathitrends.in/post/p/contact.html">Contact me</a></li> <li><a href="https://marathitrends.in/post/p/disclaimer.html">Disclaimer</a></li> <li><a href="https://marathitrends.in/post/p/privacy.html">Privacy Policy</a></li>
-
-<li><a href="https://marathitrends.in/stories/web-stories.html">Stories</a></li> </ul>
-
-<!-- ul class=sidebar2>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Privacy</a></li>
-</ul -->
+<li><a href="https://marathibana.online/recipes-index.html">Recipes</a></li>
+<li><a href="https://marathibana.online/stories/web-stories-list.html">Web Stories</a></li>
+</ul>
 
  </amp-sidebar>
 
     
-<div style="margin-top:70px;">
+<div style="margin-top:50px;">
 </div>
 
-
-<!-- post thumbnail start -->
-<div class="post-thumbnail">
-
-<a href="https://marathitrends.in/amp/expensive-whale-vomit-and-happening-crimes.html" class="post-thumbnail-title"><h1>Why is whale vomit so valuable? And why is it sold so expensive? | 'व्हेल माशाची उलटी इतकी महाग का विकली जाते ?
-</h1> <hr/>  <h3>परफ्यूम मार्केटमध्ये त्याचा वापर, विशेषत: कस्तुरीसारखे सुगंध तयार करण्यासाठी. परफ्यूमची मोठी बाजारपेठ असलेल्या दुबईसारख्या देशांमध्ये याला जास्त मागणी असल्याचे मानले जाते</h3></a>
-
-<a href="https://marathitrends.in/amp/expensive-whale-vomit-and-happening-crimes.html">
-  <amp-img
-    src="https://marathitrends.in/img/whale-fish.jpg"
-    width="auto"
-    height="200"
-    alt="post-thumbnail"
-  ></amp-img></a>
-</div>
-<br/>
-<!-- post thumbnail end -->
-
-
-<!-- post thumbnail start -->
-<div class="post-thumbnail">
-
-<a href="https://marathitrends.in/amp/gudi-padwa-hindu-festival-2022.html" class="post-thumbnail-title"><h1>Gudi Padwa 2022 : यंदा कोणत्या दिवशी साजरा होणार गुढीपाडवा‌ आणि त्याचे महत्त्व
-
-</h1> <hr/>  <h3>गुढीपाडव्याच्या दिवसांपासून चैत्र मासारंभ सुरू होते. चैत्र मास हा हिंदू दिनदर्शिकेतील पहिला महिना असतो. यावर्षी म्हणजेच 2022 पासून शके 1944 हिंदू वर्षाची सुरुवात होते आहे.</h3></a>
-
-<a href="https://marathitrends.in/amp/gudi-padwa-hindu-festival-2022.html">
-  <amp-img
-    src="https://marathitrends.in/img/gudi-padwa-2022.jpg"
-    width="auto"
-    height="200"
-    alt="post-thumbnail"
-  ></amp-img></a>
-</div>
-<br/>
-<!-- post thumbnail end -->
-
-<amp-ad
-     layout="fixed"
-     width="320"
-     height="320"
-     type="adsense"
-     data-ad-client="ca-pub-2567389909188460"
-     data-ad-slot="6694617278">
-</amp-ad>
-
-
-</br>
-
-<!-- post thumbnail start -->
-<div class="post-thumbnail">
-
-<a href="https://marathitrends.in/amp/whatsapp-new-file-sharing-limit-2gb.html" class="post-thumbnail-title"><h1>whatsapp वरून इतरांसह 2GB पर्यंतच्या मोठ्या फाइल्स आणि मीडिया सामायिक करू शकणार...
-
-</h1> <hr/>  <h3>मेटाच्या मालकीचे असलेल्या whatsapp ने, एका नवीन वैशिष्ट्यावर काम करायला सुरुवात केली आहे. या नवीन वैशिष्ट्यामुळे वापरकर्त्यांना त्यांच्या whatsapp वरून इतरांसह 2GB पर्यंतच्या मोठ्या फाइल्स आणि मीडिया सामायिक करण्यास अनुमती देईल.</h3></a>
-
-<a href="https://marathitrends.in/amp/whatsapp-new-file-sharing-limit-2gb.html">
-  <amp-img
-    src="https://marathitrends.in/img/whatsapp.jpg"
-    width="auto"
-    height="200"
-    alt="post-thumbnail"
-  ></amp-img></a>
-</div>
-<br/>
-<!-- post thumbnail end -->
-
-
-</br>
-
-<!-- post thumbnail start -->
-<div class="post-thumbnail">
-
-<a href="https://marathitrends.in/amp/sbi-new-tollfree-banking-number-launch.html" class="post-thumbnail-title"><h1>
-SBI मध्ये तुमचेही खाते असेल तर ही बातमी वाचाच… ग्राहकांसाठी खुशखब ..
-
-</h1> <hr/>  <h3>स्टेट बँक ऑफ इंडियाने १८०० १२३४ हा टोल फ्री क्रमांक जारी केला आहे, ज्याद्वारे तुम्ही फक्त एका कॉल आणि मेसेजद्वारे घरी बसून अनेक सुविधांचा लाभ घेऊ शकता. बँकेनेही ट्विट करून याबाबत माहिती दिली आहे.</h3></a>
-
-<a href="https://marathitrends.in/amp/sbi-new-tollfree-banking-number-launch.html">
-  <amp-img
-    src="https://marathitrends.in/img/sbi.jpeg"
-    width="auto"
-    height="200"
-    alt="post-thumbnail"
-  ></amp-img></a>
-</div>
-<br/>
-<!-- post thumbnail end -->
-
-
-<amp-ad
-     layout="fixed"
-     width="320"
-     height="320"
-     type="adsense"
-     data-ad-client="ca-pub-2567389909188460"
-     data-ad-slot="7432983871">
-</amp-ad>
-
+<!-- floating from here -->
 </br>
 <!-- post thumbnail start -->
+
+<div class="container">
+
+
+
+<!-- left-side start  -->
+<div class="left-side">
+
+
 <div class="post-thumbnail">
 
-<a href="https://marathitrends.in/amp/okinawa-okhi-90-launch-india.html" class="post-thumbnail-title"><h1>ओकीनोवा ने Okinawa Okhi 90 ही इलेक्ट्रिक स्कूटर भारतात लाँच केली : टक्कर देणार OLA S1 इलेक्ट्रिक स्कूटरला 
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html" class="post-thumbnail-title"><h2>How to Register Yono SBI app guide in Marathi</h2> </a>
+<p>
+<span class="date">May 22, 2022</span></p>
 
-</h1> <hr/>  <h3>भारतीय इलेक्ट्रीक दुचाकी स्कूटर उत्पादक कंपनी Okinawa Autotech ने भारतात नवीन इलेक्ट्रिक स्कूटर- Okhi 90 लॉन्च केली आहे.Okhi 90 मध्ये विविध व्यावहारिक वैशिष्ट्ये आहेत जी लोकांना आवडतील तसेच स्कुटरच्या विक्रीमध्ये प्रभावी ठरतील</h3></a>
-
-<a href="https://marathitrends.in/amp/okinawa-okhi-90-launch-india.html">
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html">
   <amp-img
-    src="https://marathitrends.in/img/okinawa-okhi-90.jpg"
+    src="https://marathibana.online/img/marathitrends.jpg"
     width="auto"
     height="200"
-    alt="post-thumbnail"
+  ></amp-img>
+<p>
+In this article we share about How to Register Yono SBI app guide in Marathi</p>
+<p>
+<span class="read-button">read more</span></p>
+</a>
+
+
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+<div class="post-thumbnail">
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html" class="post-thumbnail-title"><h2>How to Register Yono SBI app guide in Marathi</h2> </a>
+<p>
+<span class="date">May 22, 2022</span></p>
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html">
+  <amp-img
+    src="https://marathibana.online/img/marathitrends.jpg"
+    width="auto"
+    height="200"
+  ></amp-img>
+<p>
+In this article we share about How to Register Yono SBI app guide in Marathi</p>
+<p>
+<span class="read-button">read more</span></p>
+</a>
+
+
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+<div class="post-thumbnail">
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html" class="post-thumbnail-title"><h2>How to Register Yono SBI app guide in Marathi</h2> </a>
+<p>
+<span class="date">May 22, 2022</span></p>
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html">
+  <amp-img
+    src="https://marathibana.online/img/marathitrends.jpg"
+    width="auto"
+    height="200"
+  ></amp-img>
+<p>
+In this article we share about How to Register Yono SBI app guide in Marathi</p>
+<p>
+<span class="read-button">read more</span></p>
+</a>
+
+
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+
+<div class="post-thumbnail">
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html" class="post-thumbnail-title"><h2>How to Register Yono SBI app guide in Marathi</h2> </a>
+<p>
+<span class="date">May 22, 2022</span></p>
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html">
+  <amp-img
+    src="https://marathibana.online/img/marathitrends.jpg"
+    width="auto"
+    height="200"
+  ></amp-img>
+<p>
+In this article we share about How to Register Yono SBI app guide in Marathi</p>
+<p>
+<span class="read-button">read more</span></p>
+</a>
+
+
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+
+<div class="post-thumbnail">
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html" class="post-thumbnail-title"><h2>How to Register Yono SBI app guide in Marathi</h2> </a>
+<p>
+<span class="date">May 22, 2022</span></p>
+
+<a href="https://marathibana.online/amp/how-to-register-yono-sbi-app-guide-in-marathi.html">
+  <amp-img
+    src="https://marathibana.online/img/marathitrends.jpg"
+    width="auto"
+    height="200"
+  ></amp-img>
+<p>
+In this article we share about How to Register Yono SBI app guide in Marathi</p>
+<p>
+<span class="read-button">read more</span></p>
+</a>
+
+
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+
+</div>
+<!-- left-side end ^ -->
+
+
+
+
+<!-- right-side start  -->
+<div class="right-side">
+
+
+
+<!-- post thumbnail start -->
+<div class="right-side-container">
+
+<h2 class="right-side-container-title"> Recent Posts</h2>
+
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+<li><a href="#">Link 4</a></li>
+<li><a href="#">Link 5</a></li>
+</div>
+<br/>
+<!-- post thumbnail end -->
+<br/>
+
+
+
+<!-- post thumbnail start -->
+<div class="right-side-container">
+
+
+<h2 class="right-side-container-title"> Recent Posts</h2>
+
+
+<a href="https://marathibana.online/2021/04/09/searchview-and-download-digital-7-12-utara.html">
+  <amp-img
+    src="https://marathibana.online/img/7-12-utara1.png"
+    width="auto"
+    height="200"
   ></amp-img></a>
 </div>
 <br/>
@@ -339,39 +472,59 @@ SBI मध्ये तुमचेही खाते असेल तर ह�
 
 
 
+
+
+
+
+</div>
+
+<!-- right-side end ^ -->
+
+
+
+
+
+
+
+
+<!-- post container end -->
+</div>
+
+
+
 <br/>
+<hr/>
+<br/>
+
 
 <div class="footer1">
 
 <div>
-<a class="footer-link" href="https://marathitrends.in/post/p/about-us.html">ABOUT US</a>
-<a class="footer-link" href="https://marathitrends.in/post/p/disclaimer.html">DISCLAIMER</a>
-<a class="footer-link" href="https://marathitrends.in/post/p/privacy.html">PRIVACY POLICY</a>
-<a class="footer-link" href="https://marathitrends.in/post/p/terms.html">TERMS AND CONDITIONS</a>
-<a class="footer-link" href="https://marathitrends.in">HOME</a>
+<a class="footer-link" href="https://marathibana.online/post/p/about-us.html">ABOUT US</a>
+<a class="footer-link" href="https://marathibana.online/post/p/disclaimer.html">DISCLAIMER</a>
+<a class="footer-link" href="https://marathibana.online/post/p/privacy.html">PRIVACY POLICY</a>
+<a class="footer-link" href="https://marathibana.online/post/p/terms.html">TERMS AND CONDITIONS</a>
+<a class="footer-link" href="https://marathibana.online/">HOME</a>
 
 
 </div>
 <br/>
-<div><p>  This Blog 'Design' is completely created from scratch & ofcourse this is a static website. I'm still learning HTML and CSS. </p></div>
+<div> This is completely a static blog/website. Base on HTML and CSS ,JS.</div>
 
-<p>Copyright 2022</p>
+<p>Blog Mainten by rakshak</p>
 
 </div>
 
 
 
 
-    <amp-install-serviceworker src="https://marathitrends.in/sw.js"
-                               layout="nodisplay">
-    </amp-install-serviceworker>
     <amp-analytics type="gtag" data-credentials="include">
     <script type="application/json">
     {
       "vars" : {
-        "gtag_id": "UA-178406997-7",
+        "gtag_id": "UA-178406997-2",
         "config" : {
-          "UA-178406997-7": {
+          "UA-178406997-2": {
             "groups": "default"
           }
         }
