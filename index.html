@@ -61,6 +61,9 @@
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 
+<!-- service worker  -->
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <style amp-custom>
     /* Add your styles here */
@@ -268,6 +271,7 @@ border-radiusssss:15px;
 @media only screen and (min-width: 600px) {
   .container{
     display: flex;
+    margin:20px;
   }
   .left-side{
     display: flex;
@@ -318,6 +322,7 @@ display:none;
 <hr/>
 <li><a href="https://marathitrends.in/tag/essay.html">निबंध</a></li>
 <li><a href="https://marathitrends.in/tag/recipe.html">पाककृती</a></li>
+<li><a href="https://marathitrends.in/tag/banking.html">Banking</a></li>
 <li><a href="https://marathitrends.in/tag/blogger.html">Blogging</a></li>
 <li><a href="https://marathitrends.in/stories/web-stories-list.html">Web Stories</a></li>
 </ul>
@@ -586,6 +591,9 @@ src="https://marathitrends.in/img/how-to-setup-custom-domail/setup-custom-domain
 
 
 
+    <amp-install-serviceworker src="https://marathitrends.in/sw.js"
+                               layout="nodisplay">
+    </amp-install-serviceworker>
 
     <amp-analytics type="gtag" data-credentials="include">
     <script type="application/json">
