@@ -4,13 +4,13 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>post template</title>
+    <link rel="canonical" href="https://marathitrends.in/amp/template.html">
     <meta name="description" content="amp template for posts">
     <meta name="theme-color" content="#00508a">
     <meta name="msapplication-navbutton-color" content="#00508a">
     <meta name="apple-mobile-web-app-status-bar-style" content="#00508a">
     <meta name="generator" content="blogger">
-    <title>post template</title>
-    <link rel="canonical" href="https://marathitrends.in/amp/template.html">
     <link rel="manifest" href="https://marathitrends.in/manifest.json">
     <link rel="icon" type="image/png" sizes="16x16" href="https://marathitrends.in/logo/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://marathitrends.in/logo/favicon-32x32.png">
@@ -32,8 +32,8 @@
 <!-- Twitter Card  -->
     <meta property="twitter:title" content="मराठी ट्रेंड्स.इन" />
     <meta property="twitter:url" content="https://marathitrends.in/amp/template.html" />
-    <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:image:src" content="https://marathitrends.in/logo/marathitrends.png" />
+    <meta property="twitter:card" content="summary_large_image" />
 
 <script type="application/ld+json">
     {
@@ -79,12 +79,12 @@
     <!-- Import other AMP Extensions here -->
 
 
-<script async custom-element="amp-auto-ads"
+<!-- script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
 
    <!-- amp ads -->
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script  -->
 
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -234,9 +234,15 @@ margin:0px;
 padding:10px;
 height:auto;
 }
-.post h1, h5{
-color:#333333;
+.post h5{
+color:#777777;
 }
+.post h1{
+color:#333333;
+font-size:24px;
+margin-top:50px;
+}
+
 .post h5{
 margin-bottom:10px;
 }
@@ -265,6 +271,9 @@ margin-bottom:10px;
 }
 .share-icon{
 margin:3px;
+border-radius:50%;
+background-size:60%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tags-container a{
 font-size:18px;
@@ -342,6 +351,14 @@ display:none;
 
 }
 
+@media only screen and (max-width: 600px) {
+
+.social-share {
+text-align:center;
+}
+
+}
+
 
 
     </style>
@@ -401,9 +418,30 @@ display:none;
 </h1>
 </p>
 
+   <!-- share menu -->
+<div class="social-share">
 <p>
-<h5>by : marathitrends </br> published : may 22, 2022</h5>
+<h5>May 22, 2022  -  7 Min Read</h5>
 </p>
+
+<p>
+<h4>SHARE ON</h4>
+</p>
+
+<amp-social-share class="share-icon" type="facebook" width="40" height="40"  aria-label="Share on Facebook" data-param-app_id="254325784911610"></amp-social-share>
+
+<amp-social-share class="share-icon" type="twitter" width="40" height="40"  aria-label="Share on Twitter"></amp-social-share>
+
+<amp-social-share class="share-icon" type="whatsapp" width="40" height="40"  aria-label="Share on WhatsApp"></amp-social-share>
+
+<amp-social-share class="share-icon" type="email" width="40" height="40" aria-label="Share by email"></amp-social-share>
+
+<amp-social-share class="share-icon" type="system" width="40" height="40"  aria-label="Share"></amp-social-share>
+
+
+</div>
+<hr/>
+
 
 <p>7/12 utara महाराष्ट्रात सातबारा उतारा हा जमिनीच्या देवाण-घेवाण करण्यासाठी लागणारा एक महत्त्वाचा कागदपत्र आहे. 7/12 utara सातबारा उताऱ्यावर जमिनीची सर्व माहिती असते, जसे की जमिनीचा क्षेत्र किती गुंठे आहे, त्या जमिनीचा एकच मालक आहे की सामाईक जमीन आहे, ही जमीन शेतजमीन आहे की बिगरशेती आहे वगैरे वगैरे.
 </p>
@@ -424,24 +462,6 @@ display:none;
 </div>
 
 
-   <!-- share menu -->
-<div class="social-share">
-<h4>SHARE ON</h4>
-<amp-social-share class="share-icon" type="telegram" width="40" height="40"  aria-label="Share on Telegram"></amp-social-share>
-
-<amp-social-share class="share-icon" type="facebook" width="40" height="40"  aria-label="Share on Facebook" data-param-app_id="254325784911610"></amp-social-share>
-
-<amp-social-share class="share-icon" type="twitter" width="40" height="40"  aria-label="Share on Twitter"></amp-social-share>
-
-<amp-social-share class="share-icon" type="whatsapp" width="40" height="40"  aria-label="Share on WhatsApp"></amp-social-share>
-
-<amp-social-share class="share-icon" type="system" width="40" height="40"  aria-label="Share"></amp-social-share>
-
-<amp-social-share class="share-icon" type="email" width="40" height="40" aria-label="Share by email"></amp-social-share>
-
-
-</div>
-<hr/>
 
    <!-- image slider start -->
 
@@ -630,8 +650,6 @@ website :</a>
 
 
 
-<br/>
-<hr/>
 <br/>
 
 
