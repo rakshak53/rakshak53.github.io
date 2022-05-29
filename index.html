@@ -3,7 +3,7 @@
   <head>
     
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="marathi content website">
     <meta name="theme-color" content="#00508a">
     <meta name="msapplication-navbutton-color" content="#00508a">
@@ -33,7 +33,7 @@
     <meta property="twitter:title" content="मराठी ट्रेंड्स.इन" />
     <meta property="twitter:url" content="https://marathitrends.in" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image:src" content="https://marathitrends.in/logo/marathitrends.jpg" />
+    <meta property="twitter:image:src" content="https://marathitrends.in/logo/marathitrends.png" />
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,10 +61,15 @@
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 
+
 <!-- service worker  -->
 <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+<script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
+
+
     <style amp-custom>
     /* Add your styles here */
 *{margin:0;
@@ -302,6 +307,15 @@ display:none;
 
   <body>
 
+<amp-web-push
+  id="amp-web-push"
+  layout="nodisplay"
+  helper-iframe-url="https://marathitrends.in/helper-frame.html"
+  permission-dialog-url="https://marathitrends.in/permission-dialog.html"
+  service-worker-url="https://marathitrends.in/sw.js"
+>
+</amp-web-push>
+
 <!-- auto ads rakshak -->
 
 <header class="headerbar">
@@ -326,6 +340,7 @@ display:none;
 <li><a href="https://marathitrends.in/tag/blogger.html">Blogging</a></li>
 <li><a href="https://marathitrends.in/stories/web-stories-list.html">Web Stories</a></li>
 </ul>
+
 
  </amp-sidebar>
 
@@ -552,6 +567,30 @@ src="https://marathitrends.in/img/how-to-setup-custom-domail/setup-custom-domain
 
 
 
+<div class="right-side-container">
+<!-- A subscription widget -->
+<amp-web-push-widget
+  visibility="unsubscribed"
+  layout="fixed"
+  width="250"
+  height="80"
+>
+  <button on="tap:amp-web-push.subscribe">Subscribe to Notifications</button>
+</amp-web-push-widget>
+
+<!-- An unsubscription widget -->
+<amp-web-push-widget
+  visibility="subscribed"
+  layout="fixed"
+  width="250"
+  height="80"
+>
+  <button on="tap:amp-web-push.unsubscribe">
+    Unsubscribe from Notifications
+  </button>
+</amp-web-push-widget>
+</div>
+
 
 
 
@@ -569,9 +608,8 @@ src="https://marathitrends.in/img/how-to-setup-custom-domail/setup-custom-domain
 
 
 
-<!-- post container end -->
+<!--  container end -->
 </div>
-
 
 
 <br/>
