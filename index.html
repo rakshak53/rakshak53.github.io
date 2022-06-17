@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta property="fb:app_id" content="1168586930602249" />
 <meta property="fb:admins" content="{YOUR_FACEBOOK_USER_ID}"/>
 
@@ -41,6 +42,7 @@
 margin:0;
 padding:0;
 font-family: 'Laila', sans-serif;
+color:#4d4d4d;
 }
 
 body {
@@ -48,18 +50,10 @@ font-family: 'Laila', sans-serif;
 color:#4d4d4d;
 }
 
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #f2f2f2;
-  height: 1000px;
-  color: #4d4d4d;
-  border-radius: 10px;
-}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #000;
   position: relative;
 }
 
@@ -89,19 +83,16 @@ color:#4d4d4d;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color:#000;
   color: white;
 }
 </style>
 </head>
 <body><div id="fb-root"></div>
 
-<!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-
 <!-- Top Navigation Menu -->
 <div class="topnav">
-  <a href="https://rakshak53.github.io" class="active">rakshak</a>
+  <a href="https://rakshak53.github.io" class="active"><img src="https://rakshak53.github.io/logo/rakshak.png" style="height:30px;"/></a>
   <div id="myLinks">
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
@@ -111,38 +102,57 @@ color:#4d4d4d;
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<!-- Simulate a smartphone / tablet -->
+<div class="container">
+</div>
+<!-- mobile container end -->
 
-<div style="padding-left:16px">
+<div style="padding-left:0px">
   <h3>Vertical Mobile Navbar</h3>
   <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
   <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
 
 
+<div style="border:1px solid #2d2d2d;">
 
-
-<div class="fb-share-button" data-href="https://unifiedmarathi.in" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Funifiedmarathi.in%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-
+<span>
+<p>If you like, Give a thumbs up to this article</p>
 <!-- like button -->
 <div class="fb-like" data-href="https://unifiedmarathi.in" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+</span>
+</div>
 
+
+
+
+
+
+<span class="share">
+
+<div class="fb-share-button" data-href="https://unifiedmarathi.in" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Funifiedmarathi.in%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+</span>
+
+<span class="share">
 <!-- telegram -->
 <script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-share-url="https://marathitrends.in" data-size="large"></script>
+</span>
 
+<span class="share">
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+</span>
 
 
 
 
 
 
-</div>
 
 <!-- Facebook comments start -->
 
-<div class="fb-comments" data-href="https://rakshak53.github.io" data-width="250" data-numposts="99"></div>
 <span class="fb-comments-count" data-href="https://rakshak53.github.io"></span>
 awesome comments 
+
+<div class="fb-comments" data-href="https://rakshak53.github.io" data-width="100%" data-numposts="99"></div>
 
 <!-- Facebook comments end -->
 
