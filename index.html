@@ -10,12 +10,20 @@
 
 <link rel="canonical" href="https://rakshak53.github.io">
 <!-- This is the URL for this page -->
-<meta property="og:url" content="https://rakshak53.github.io" />
 
 <!-- This is the og:* meta from the original version of the page -->
-<meta property="og:title" content="your_link_title">
-<meta property="og:image" content="your_image_url">
+<meta property="og:locale" content="en_IN" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="RAKSHAK.TECH" />
 
+<meta property="article:section" content="technology" />
+<meta property="article:tag" content="android" />
+
+
+<meta property="og:title" content="your_link_title" />
+<meta property="og:url" content="https://rakshak53.github.io" />
+<meta property="og:image" content="your_image_url" />
+<meta property="og:description" content="How much does culture influence creative thinking?" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,8 +41,6 @@
 <!-- comments plugin -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=1168586930602249&autoLogAppEvents=1" nonce="g1MKdzaV"></script>
 
-<!-- Twitter -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 <style>
@@ -87,6 +93,29 @@ color:#4d4d4d;
   background-color:#000;
   color: white;
 }
+
+
+@media only screen and (min-width: 600px) {
+  .container{
+    display: flex;
+    margin:20px;
+    margin-top:50px;
+  }
+  .left-side{
+   width:70%;
+  margin-right:10px;
+}
+  .right-side{
+   width:30%;
+  margin-left:10px;
+}
+.hamburger{
+display:none;
+}
+
+}
+
+
 </style>
 </head>
 <body>
@@ -110,12 +139,28 @@ color:#4d4d4d;
 
 <style>
 .post-card{
-margin:15px;
+margin:15px 15px 25px 15px;
 background-color:#ffffff;
 border-radius:25px;
 padding:15px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.right-side-container{
+margin:15px 15px 25px 15px;
+background-color:#ffffff;
+border-radius:25px;
+padding:15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-side-container ul{
+margin-left:20px;
+}
+
+.right-side-container li{
+margin-bottom:10px;
+}
+
 </style>
 
 <div class="container">
@@ -140,8 +185,46 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 <div class="right-side">
 
 <div class="right-side-container">
+
+<p class="center-dp">Recent Post</p>
+<ul>
+<li><a href="#">Anonymous</a></li>
+<li><a href="#">Aaltek</a></li>
+<li><a href="#">Geography</a></li>
+<li><a href="#">Technology</a></li>
+<li><a href="#">Abonomolish</a></li>
+</ul>
+
 </div>
 
+
+<div class="right-side-container">
+
+<p class="center-dp">Recent Post</p>
+<ul>
+<li>A</li>
+<li>A</li>
+<li>A</li>
+<li>A</li>
+<li>A</li>
+</ul>
+
+</div>
+
+
+<div class="right-side-container">
+
+<p class="center-dp">admin</p>
+
+
+<p class="center-dp">
+<img src="https://s.gravatar.com/avatar/e7498aab356cd7c32518ddff100f7928?s=70">
+
+</img></p>
+<p>rakshak  ( <a href="https://m.me/rakshakbhatkar">rakshak53 </a>) is a new blogger who is trying his luck in blogging.he is a part-time blogger who specialise in blogging with tech related topics.
+</p>
+
+</div>
 
 </div>
 <!-- right-side end -->
@@ -150,6 +233,67 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 </div>
 <!-- last/all container end -->
+
+
+<style>
+
+.center-dp{
+text-align:center;
+margin-bottom:20px;
+}
+
+.center-dp img{
+border-radius:50px;
+width:70px;
+height:70px;
+}
+
+.footer1{
+background-color:#2d2d2d;
+text-align:center;
+padding:20px;
+}
+
+.footer1 ul{
+display:flex;
+justify-content:center;
+}
+.footer1 p{
+font-size:16px;
+}
+.footer1 li{
+list-style:none;
+}
+.footer1 hr{
+border-top:1px solid #4d4d4d;
+margin:20px;
+}
+.footer1 a{
+text-decoration:none;
+margin-left:25px;
+color:#999999;
+}
+.footer1 a:hover{
+color:#ffffff;
+}
+</style>
+<footer>
+<div class="footer1">
+<p>
+<ul>
+<li><a href="#">about</a></li>
+<li><a href="#">contact</a></li>
+<li><a href="#">terms and conditions</a></li>
+<li><a href="#">privacy policy</a></li>
+</ul>
+</p>
+
+<hr/>
+<p>blog maintain by rakshak</p>
+
+</div>
+</footer>
+
 
 
 
@@ -166,32 +310,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 <!-- like button -->
 <div class="fb-like" data-href="https://unifiedmarathi.in" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
 </span>
-</div>
-
-
-
-
-
 
 <span class="share">
 
 <div class="fb-share-button" data-href="https://unifiedmarathi.in" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Funifiedmarathi.in%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 </span>
 
-<span class="share">
-<!-- telegram -->
-<script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-share-url="https://marathitrends.in" data-size="large"></script>
-</span>
-
-<span class="share">
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
-</span>
-
-
-
-
-
-
+</div>
 
 <!-- Facebook comments start -->
 
