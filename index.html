@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta property="fb:app_id" content="1168586930602249" />
-<meta property="fb:admins" content="{YOUR_FACEBOOK_USER_ID}"/>
+<meta property="fb:admins" content="100002244118190"/>
+<meta name="google-site-verification" content="QpLZVoUoZFGyABEW_EtsvXNPCQjcUY6oWaF4uRAWO9g"/>
+   
 
-
-
+<title>RAKSHAK.TECH</title>
+<meta name="description" content="A description of the page" />
+<meta name="keywords" content="keyword 1, keyword 2, keyword 3"/>
 <link rel="canonical" href="https://rakshak53.github.io">
 <!-- This is the URL for this page -->
 
@@ -42,6 +45,27 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=1168586930602249&autoLogAppEvents=1" nonce="g1MKdzaV"></script>
 
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <style>
 *{
@@ -49,6 +73,9 @@ margin:0;
 padding:0;
 font-family: 'Laila', sans-serif;
 color:#4d4d4d;
+}
+a{
+text-decoration:none;
 }
 
 body {
@@ -93,7 +120,6 @@ color:#4d4d4d;
   background-color:#000;
   color: white;
 }
-
 
 @media only screen and (min-width: 600px) {
   .container{
